@@ -1,0 +1,124 @@
+<%- include("partials/header") -%>
+
+<div class="home-header">
+  <h1>Welcome To LUNA</h1>
+  <p style="font-size: 30px; font-family: 'Caramel', cursive;">Bold Flavor</p>
+</div>
+
+<div class="carousel-container">
+  <div class="container1">
+    <div class="carousel">
+      <div class="carousel__face"><span>LUNA</span></div>
+      <div class="carousel__face"><span>LUNA</span></div>
+      <div class="carousel__face"><span>LUNA</span></div>
+      <div class="carousel__face"><span>LUNA</span></div>
+      <div class="carousel__face"><span>LUNA</span></div>
+      <div class="carousel__face"><span>LUNA</span></div>
+      <div class="carousel__face"><span>LUNA</span></div>
+      <div class="carousel__face"><span>LUNA</span></div>
+      <div class="carousel__face"><span>LUNA</span></div>
+    </div>
+  </div>
+</div>
+
+
+<fieldset class="fieldset">
+<p>lorem50</p>
+</fieldset>
+<fieldset class="fieldset">
+<p>lorem50</p>
+</fieldset>
+<fieldset class="fieldset">
+<p>lorem50</p>
+</fieldset>
+<fieldset class="fieldset">
+<p>lorem50</p>
+</fieldset>
+
+<div class="whoweare">
+  <p style="font-family: 'Jost', sans-serif;font-size:40px;color:black;">Who We Are</p>
+  <p style="font-size: 32px; font-family: 'Caramel', cursive;color:black;">Our Roots</p>
+  <p style="font-size:16px; line-height:2;color:black;padding: 10px 200px;font-weight:lighter;">We started our business in 2000 with one goal in mind: providing an enjoyable dining experience to the San Francisco area. Thanks to our experience and dedication, we’ve managed to become masters of the craft. Providing dishes that are fresh, hearty and simply unforgettable.</p>
+   <br>
+   <img style="width:100%; height:500px;" src="https://static.wixstatic.com/media/11062b_99b28f97a1e64c3cbded16e576ced825~mv2_d_6050_4032_s_4_2.jpg/v1/fill/w_1349,h_560,fp_0.57_0.48,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_99b28f97a1e64c3cbded16e576ced825~mv2_d_6050_4032_s_4_2.jpg" alt="">
+</div>
+
+<div class="featured-dishes">
+  <h1>Featured Dishes</h1>
+  <p style="font-size: 35px; font-family: 'Caramel', cursive;color:black; font-weight:lighter">Fresh Fare</p>
+  <br><br>
+  <div class="three-catalog">
+    <div class="col-lg-4">
+      <i class="fa-sharp fa-solid fa-bowl-food fa-4x" style="color:black;"></i>
+       <br>
+      <h3 style="font-weight:lighter">Vegetable Couscous</h3>
+      <p style="font-weight:lighter">Many restaurants have their own take on this recipe, but we’re confident that ours is the best, always prepared to perfection. Share it with friends or have it all to yourself—you’ll enjoy it till the very last bite.</p>
+    </div>
+    <div class="col-lg-4">
+      <i class="fa-sharp fa-solid fa-bowl-food fa-4x" style="color:black;"></i>
+       <br>
+      <h3 style="font-weight:lighter">Grilled Vegetables</h3>
+      <p style="font-weight:lighter">This latest addition to our menu has already become our customers’ favorite. Day or night, our Grilled Vegetables is the dish you’ve been craving. Don’t forget to ask your server about our special extras!</p>
+    </div>
+    <div class="col-lg-4">
+      <i class="fa-sharp fa-solid fa-bowl-food fa-4x" style="color:black;"></i>
+       <br>
+      <h3 style="font-weight:lighter">Veggie Delight</h3>
+      <p style="font-weight:lighter">With our Veggie Delight we’ve managed to put a new spin on an old classic. Simplicity is the name of the game: we use fresh ingredients and offer a variety of extras on the side. Are you ready for this culinary sensation?</p>
+    </div>
+  </div>
+</div>
+
+<fieldset class="fieldset">
+<p>lorem50</p>
+</fieldset>
+
+<div class="rese">
+
+  <%  reservations.forEach(function(reservation){ %>
+
+    <h3><%=reservation.name%></h3>
+    <p><%=reservation.subject%></p>
+    <p>
+    <%=reservation.message.substring(0, 200) + " ..."%>
+    <a href="/reservations/<%=reservation._id%>">Read More</a>
+    </p>
+
+
+    <% }) %>
+
+</div>
+<fieldset class="fieldset">
+<p>lorem50</p>
+</fieldset>
+
+
+<!-- <div class="upcoming" style="background-color:white; padding: 200px; text-align: center;">
+  <p style="font-weight:lighter; font-size:25px; font-family: cursive; ">Nothing to book right now. Check back soon.</p>
+</div> -->
+
+<div class="timings">
+  <div class="time-img">
+    <img style="height:400px; width:60%;" src="https://static.wixstatic.com/media/11062b_d397e51d04b7484facb62a135bb2f419~mv2_d_6720_4480_s_4_2.jpg/v1/crop/x_0,y_1334,w_6720,h_3145/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Lunch%20Meeting.jpg" alt="">
+  </div>
+  <div style="padding:40px" class="time-schedule">
+      <h2 style="color:black;  font-family: 'Jost', sans-serif;">Opening Hours</h2>
+      <p style="font-size: 30px; font-family: 'Caramel', cursive;">Dine In or Take Away</p>
+      <p style="font-size:18px; font-weight:lighter;">Monday - Saturday: 11am - 11pm</p>
+      <p style="font-size:18px; font-weight:lighter;">Sunday: 11am - 7pm</p>
+  </div>
+  <button class="btn" type="button">Get in Touch</button>
+</div>
+
+
+
+<div class="subscribe-form" style="background-color: white;">
+  <h1 style="color:black;  font-family: 'Jost', sans-serif;">Subscribe Form</h1>
+  <hr style="height:2px;width:70%;text-align:center;background-color:black;">
+  <form class="" action="/" method="POST">
+    <input type="email" name="email" placeholder="e.g.,email@example.com">
+    <button class="btn" type="submit">Join</button>
+  </form>
+</div>
+
+<%- include("partials/footer") -%>

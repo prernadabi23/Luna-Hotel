@@ -1,0 +1,31 @@
+<%- include("partials/header") -%>
+
+
+
+<div style="background-color:inherit; padding: 50px; text-align: center;">
+  <p style="font-weight:lighter; font-size:20px; font-family: cursive; ">Fill in your details we will arrange your reservation according to your needs.</p>
+</div>
+
+
+<div class="contact-page">
+  <h1 style="text-align:center;  font-family: 'Jost', sans-serif; font-size:45px; padding: 30px 0px 30px;">Contact</h1>
+  <form class="" action="/book" method="post">
+    <label style="font-weight:lighter; color:black;">Name*</label>
+    <input type="text" name="reservationName" placeholder="Enter your name" required>
+    <label style="font-weight:lighter; color:black;">Email*</label>
+    <input type="Email" name="reservationEmail" placeholder="Enter your mail" required>
+    <label style="font-weight:lighter; color:black;">Subject</label>
+    <input type="text" name="reservationSubject" placeholder="Type the subject">
+    <label style="font-weight:lighter; color:black;">Message</label>
+    <textarea name="reservationBody" rows="5" cols="40" placeholder="Type your message here..."></textarea>
+
+    <hr style="height:2px;width:70%;text-align:center;background-color:black;">
+    <button class="button" style="color:white; background-color:black; width:100%;font-size:18px; font-weight:lighter; height:50px; font-family:'Jost', sans-serif;" type="submit" name="button">Submit</button>
+
+  </form>
+
+</div>
+
+
+
+<%- include("partials/footer") -%>
