@@ -155,10 +155,3 @@ app.listen(3000, function() {
 });
 
 
-
-
-// Api keys
-// 28a311478f3fe53e7f38eaeadce35d53-us21
-
-// unique keys
-// 56fa24bc13
