@@ -3,6 +3,9 @@
 # Hotel-website
 A Model website for hotel built on nodejs, express, Bootstrap, EJS, Mailchimp API and MongoDB  <br>
 
+
+![Screenshot_20230125_061105](https://user-images.githubusercontent.com/104578155/214575531-7d73004e-8528-49f1-ac40-af9ae2df964e.png)
+
 ## Requirements
 
 For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
