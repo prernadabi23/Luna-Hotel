@@ -1,6 +1,6 @@
 # LUNA-The-hotel
 
-# Hotel-website
+### Hotel-website
 A Model website for hotel built on nodejs, express, Bootstrap, EJS, Mailchimp API and MongoDB  <br>
 
 
