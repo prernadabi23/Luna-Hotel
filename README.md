@@ -1,10 +1,15 @@
 # LUNA-The-hotel
 
-### Hotel-website
-A Model website for hotel built on nodejs, express, Bootstrap, EJS, Mailchimp API and MongoDB  <br>
 
+Luna is an impressive hotel website that I created from scratch. Using technologies like
+Node.js, Express.js, MongoDB, and the Mailchimp API, I built a user-friendly platform.
+With a sleek design and easy-to-use features, Luna makes it effortless for visitors to
+explore and book. The reservation system securely stores user information in a reliable
+MongoDB database. Luna offers various amenities, such as banquet halls, delicious food,
+and luxurious rooms, making it the perfect example of an exceptional hotel website.
 
-![Screenshot_20230125_061105](https://user-images.githubusercontent.com/104578155/214575531-7d73004e-8528-49f1-ac40-af9ae2df964e.png)
+![luna](https://github.com/prernadabi23/Luna-Hotel/assets/104578155/f7c6e167-a801-4cd9-be0c-ca09b266d8c0)
+
 
 ## Requirements
 
